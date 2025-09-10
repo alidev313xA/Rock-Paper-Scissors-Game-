@@ -16,6 +16,7 @@ Afterwards, I polished it a bit — added smoother animations, responsiveness, a
 
 ### 🖼️ Screenshot / Demo
 <img width="1315" height="639" alt="image" src="https://github.com/user-attachments/assets/d76b3fdb-e8a8-4902-9d9f-7985ef65d47b" />
+
 👉 [Live Demo](https://rock-paper-scissors-game-omega-dusky.vercel.app/)
 
 ### 📚 What I Learned
