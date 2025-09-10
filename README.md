@@ -13,11 +13,10 @@ Afterwards, I polished it a bit — added smoother animations, responsiveness, a
 * Emoji display of choices ✊ ✋ ✌️.
 * Highlight for the winning choice each round.
 * Restart button resets everything.
-* Keyboard shortcuts: press `r`, `p`, or `s` to play quickly.
 
 ### 🖼️ Screenshot / Demo
 
-👉 (Add a CodePen / GitHub Pages / Netlify link here, or a screenshot)
+👉 [Live Demo](https://rock-paper-scissors-game-omega-dusky.vercel.app/)
 
 ### 📚 What I Learned
 
@@ -38,4 +37,3 @@ I’d love to get feedback on:
 Thanks for checking out my little project! 🚀
 
 ---
-
