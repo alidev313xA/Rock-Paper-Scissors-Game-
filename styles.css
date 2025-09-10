@@ -1,0 +1,122 @@
+*, 
+*::before, 
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #0a0536;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 30px 20px;
+}
+
+.game-container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+.rule-container {
+    text-align: center;
+    margin: 30px auto;
+    color: rgb(194, 194, 47);
+    border: 1px solid rgb(153, 153, 26);
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 700px;
+    background-color: #0f4f74ee; 
+    border-radius: 3px;
+    border: none; 
+}
+details p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+details ul {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+li {
+    margin-top: 5px;
+}
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px auto;
+}
+.player-score {
+    color: greenyellow;
+} 
+.computer-score {
+    color: red;
+}
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px auto;
+}
+.emoji {
+  color: transparent;
+ text-shadow: 
+  0 0 0 #063f10,     /* base light green */
+  0 0 6px #989c99;   /* soft glow */
+}
+.opt-btn {
+    background: rgb(194, 194, 47);
+    padding: 12px 20px;
+    min-width: 110px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .12s ease, box-shadow .12s ease, background-color .12s;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    color: rgb(24, 43, 8);
+}
+.opt-btn:active { 
+    transform: translateY(2px);
+}
+
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+#restart-btn {
+    display: none;
+    margin: 20px auto;
+}
+button:hover {
+    background-color:rgb(219, 219, 72);
+}
+
+@keyframes pop {
+  0% { transform: scale(.96); opacity: .0 }
+  50% { transform: scale(1.03); opacity: 1 }
+  100% { transform: scale(1); opacity: 1 }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.2rem; margin-bottom: 18px; }
+  .rule-container { padding: 8px 12px; font-size: .95rem; }
+  .opt-btn { min-width: 90px; padding: 10px 14px; font-size: .95rem; }
+}
