@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Let's play Rock, Paper Scissors against Computer</h1>
+        <details class="rule-container">
+            <summary>Rules</summary>
+            <div class="rule-content">
+                <p>You will be playing multiple rounds against Computer</p>
+                <p>One who first reach the score 3 wins the game</p>
+                <p>Here the game plays: </p>
+                <ul>
+                    <li>Rock Beats Scissors</li>
+                    <li>Paper Beats Rock</li>
+                    <li>Scissors Beat Paper</li>
+                </ul>
+            </div>
+        </details>
+        <div class="score-container">
+            <p class="score">Player Score: <strong><span id="player-score" area-live="polite">0</span></strong></p>
+            <p class="score">Computer Score: <strong><span id="computer-score" area-live="polite">0</span></strong></p>
+            <h2 class="computer-score"></h2>
+        </div>
+        <p id="choose-option">Choose your Option: </p>
+        <div class="options-container">
+            <button class="opt-btn" id ="rock-btn" data-choice="rock" type="button" aria-label="Play Rock"><span class="emoji">✊</span> Rock</button>
+            <button class="opt-btn" id ="paper-btn" data-choice="paper" type="button" aria-label="Play Paper"><span class="emoji">✋</span> Paper</button>
+            <button class="opt-btn" id ="scissors-btn" data-choice="scissors" type="button" aria-label="Play Scissors"><span class="emoji">✌️</span> Scissors</button>
+        </div>
+        <div class="result-container">
+            <p class="round-result"></p>
+            <p class="game-result"></p>
+        </div>
+        <button class ="opt-btn" id="restart-btn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
